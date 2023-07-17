@@ -2,3 +2,45 @@
 font-family: 'Manrope', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
+}
+
+/* shared styles */
+
+
+/* nav styles */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    padding: 4% 0;
+    margin: auto;
+}
+
+.nav-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav-menu-container{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none; 
+}
+
+.nav-menu-container a{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-weight: 600;
+}
