@@ -8,13 +8,28 @@ font-family: 'Roboto', sans-serif; */
     padding: 0;
 }
 
+
+/* shared styles */
 body{
     font-family: 'Poppins', sans-serif;
     color: #3A3A3A;
 }
 
-/* shared styles */
+.btn-primary{
+    padding: 10px 20px;
+    background-color: #E02C6D;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #FFF;
+    border: 2px solid transparent;
+    transition: all 0.2s ease-out;
+}
 
+.btn-primary:hover{
+    background-color:#961d49;
+    color: white;
+    cursor: pointer;
+}
 
 /* nav styles */
 .nav-container{
@@ -34,6 +49,7 @@ body{
 .nav-menu-container{
     width: 40%;
     display: flex;
+    gap: 3%;
     justify-content: space-between;
     align-items: center;
     list-style: none; 
@@ -43,4 +59,45 @@ body{
     text-decoration: none;
     color: #3A3A3A;
     font-weight: 600;
+}
+
+/* banner styles */
+.banner-container{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-info{
+    width: 50%;
+}
+
+.banner-text{
+    margin: 3% 0% 4%;
+    font-weight: 600;
+}
+
+.banner-title{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.banner-container button{ 
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.banner-img{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.banner-img img{
+    height: 80%;
+    width: 80%;
 }
