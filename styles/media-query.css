@@ -9,6 +9,35 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 3% 5%;
     }
+
+    .featured-container{
+        margin-top: 35%;
+    }
+
+    .featured-container{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .featured-container button, .featured-container p{
+        margin: auto;
+    }
+
+    .featured-container p{
+        margin: 3% auto 3%;
+    }
+
+    .featured-info button{
+        margin-bottom: 4%;
+    }
+
+    .featured-img{
+        width: 85%;
+    }
+
+    .featured-img img{
+        width: 100%;
+    }
 }
 
 
@@ -84,4 +113,20 @@
         gap: 2% 0;
     }
 
+    .featured-container{
+        margin-top: 120%;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    .featured-container{
+        margin-top: 150%;
+    }
+}
+
+@media screen and (max-width: 260px) {
+    .featured-container{
+        margin-top: 200%;
+    }
 }
