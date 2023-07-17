@@ -101,3 +101,16 @@ body{
     height: 80%;
     width: 80%;
 }
+
+/* sponsors styles */
+.sponsors{
+    width: 70%;
+    margin: 10% auto;
+    display: flex;
+    gap: 20px 4%;
+    justify-content: space-around;
+}
+
+.sponsors img{
+    width: 90%;
+}

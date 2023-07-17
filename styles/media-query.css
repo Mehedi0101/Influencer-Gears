@@ -17,6 +17,11 @@
         width: 50%;
     }
 
+    .sponsors{
+        width: 90%;
+        justify-content: space-between;
+    }
+
 }
 
 /* small device */
@@ -42,7 +47,7 @@
         text-align: center;
     }
 
-    .nav-menu-container{
+    .nav-menu-container,.sponsors{
         width: 100%;
         justify-content: space-evenly;
         flex-wrap: wrap;
@@ -55,6 +60,18 @@
     .banner-img{
         width: 80%;
         justify-content: center;
+    }
+
+    .sponsors{
+        margin: 20% 0%;
+    }
+
+    .sponsor-logo{
+        width: calc(100% / 7);
+    }
+
+    .sponsors img{
+        width: 90%;
     }
 
 }
