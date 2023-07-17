@@ -72,6 +72,10 @@
         flex-direction: column-reverse;
     }
 
+    .banner-title{
+        font-size: 2.2rem;
+    }
+
     .nav-container{
         width: 100%;
     }
